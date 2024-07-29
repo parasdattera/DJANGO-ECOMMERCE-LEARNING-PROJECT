@@ -53,12 +53,12 @@ INSTALLED_APPS = [
 CORS_ALLOW_CREDENTIALS = True # cookies allowed to be included in cross-site HTTP requests.
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost",
+    "http://localhost:5173",
     "http://127.0.0.1",
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    "http://localhost",
+    "http://localhost:5173",
     "http://127.0.0.1",
 ]
 
